@@ -1,0 +1,13 @@
+Package test (mocked Watson response; live endpoint timed out):
+
+Python import:
+from EmotionDetection import emotion_detector
+
+Input: I hate working long hours
+
+Output:
+{'anger': 0.87, 'disgust': 0.02, 'fear': 0.04, 'joy': 0.03, 'sadness': 0.04, 'dominant_emotion': 'anger'}
+
+Import compatibility check:
+from final_project.emotion_detection import emotion_detector
+True

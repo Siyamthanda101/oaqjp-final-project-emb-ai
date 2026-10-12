@@ -1,0 +1,4 @@
+$ python -m pylint final_project/server.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 2.31/10, +7.69)

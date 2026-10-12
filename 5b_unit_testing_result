@@ -1,0 +1,15 @@
+Unit tests use mocked Watson responses; the live service is not called.
+
+$ cd final_project && python3 test_emotion_detection.py
+test_anger (__main__.TestEmotionDetector.test_anger) ... ok
+test_bad_request_returns_none_values (__main__.TestEmotionDetector.test_bad_request_returns_none_values) ... ok
+test_blank_input_displays_invalid_text_message (__main__.TestEmotionDetector.test_blank_input_displays_invalid_text_message) ... ok
+test_disgust (__main__.TestEmotionDetector.test_disgust) ... ok
+test_fear (__main__.TestEmotionDetector.test_fear) ... ok
+test_joy (__main__.TestEmotionDetector.test_joy) ... ok
+test_sadness (__main__.TestEmotionDetector.test_sadness) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.020s
+
+OK
