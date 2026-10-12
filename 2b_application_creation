@@ -1,0 +1,22 @@
+Application import check:
+
+$ PYTHONPATH=final_project python -c "from EmotionDetection import emotion_detector; print('Application import successful:', callable(emotion_detector))"
+Application import successful: True
+
+Unit tests:
+
+$ PYTHONPATH=final_project python -m unittest discover -s final_project -v
+test_anger (test_emotion_detection.TestEmotionDetector.test_anger) ... ok
+test_bad_request_returns_none_values (test_emotion_detection.TestEmotionDetector.test_bad_request_returns_none_values) ... ok
+test_blank_input_displays_invalid_text_message (test_emotion_detection.TestEmotionDetector.test_blank_input_displays_invalid_text_message) ... ok
+test_disgust (test_emotion_detection.TestEmotionDetector.test_disgust) ... ok
+test_fear (test_emotion_detection.TestEmotionDetector.test_fear) ... ok
+test_joy (test_emotion_detection.TestEmotionDetector.test_joy) ... ok
+test_sadness (test_emotion_detection.TestEmotionDetector.test_sadness) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.019s
+
+OK
+
+Note: Unit tests use mocked Watson responses; the live Watson endpoint was not tested.
